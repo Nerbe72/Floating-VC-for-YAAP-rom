@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notibar"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center">
+    <Button
+        android:id="@+id/noti_vol_down"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:foreground="@drawable/minus"/>
+
+    <Button
+        android:id="@+id/noti_vol_up"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:background="#00000000"
+        android:foreground="@drawable/plus"/>
+
+</LinearLayout>
